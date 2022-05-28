@@ -68,7 +68,7 @@ def resolverIntegralTeoremaResiduo (m, n, a, b, c, radio):
     
     print("\nResultado expresado:  2πi * ( " + str(sumaResiduos) + " )");
     
-    return 2 * math.pi * complex(0,1) * sumaResiduos;
+    return complex(2) * complex(math.pi) * complex(0,1) * complex(sumaResiduos);
 
 def graficarCirculo(h, k, radio, z0, z1, z2):
     axes = plt.subplots()[1]
